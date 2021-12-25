@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    justify-items: center;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    width: 850px;
+    height: 380px;
+    border: 1px solid black;
+}
+.card1 {
+    background-image: url("https://images.pexels.com/photos/1591055/pexels-photo-1591055.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: 100% 100%;
+}
+.card2 {
+    background-image: url("https://images.pexels.com/photos/2709563/pexels-photo-2709563.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: 100% 100%;
+}
+.card3 {
+    background-image: url("https://i.pinimg.com/originals/96/36/3c/96363c9337b2d1aad24323b1d9efda72.jpg");
+    background-size: 100% 100%;
+}
+.card4 {
+    background-image: url("https://images.pexels.com/photos/3556819/pexels-photo-3556819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: 100% 100%;
+}
+a {
+    cursor: pointer;
+}
