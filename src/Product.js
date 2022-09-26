@@ -10,18 +10,18 @@ import Womens from "./components/Womens/Womens";
 function Product() {
   return (
     <div className="main">
-      {/* <BrowserRouter> */}
+      <BrowserRouter>
         <div>
           <Header />
           <Switch>
-            {/* <Route path="/homepage" exact component={HomePage} /> */}
+            <Route path="/homepage" exact component={HomePage} />
             <Redirect path="/shops" exact component={Shops} />
             <Redirect path="/mens" exact component={Mens} />
             <Redirect path="/exclusive" exact component={Exclusive} />
             <Redirect path="/womens" exact component={Womens} />
           </Switch>
         </div>
-      {/* </BrowserRouter> */}
+      </BrowserRouter>
     </div>
   );
 }
