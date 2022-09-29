@@ -1,27 +1,23 @@
 import styled from "styled-components";
 import { categories } from "../Data/Data";
 import CategoryItem from "./CategoryItem";
-
 import "./style.css";
+
+const Container = styled.div`
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  ${mobile({ padding: "0px", flexDirection:"column" })}
+`;
 
 const Categories = () => {
   return (
-    <div className="categories">
-      <div className="container">
-        <a href="/shops">
-          <div className="card card1">SHOPS</div>
-        </a>
-        <a href="/mens">
-          <div className="card card2">MENS</div>
-        </a>
-        <a href="/exclusive">
-          <div className="card card3">EXCLUSIVE</div>
-        </a>
-        <a href="/womens">
-          <div className="card card4">WOMENS</div>
-        </a>
-      </div>
-    </div>
+    <Container>
+      {categories.map((item) => (
+        <CategoryItem item={item} key={item.id} />
+      ))}
+    </Container>
   );
 };
+
 export default Categories;
