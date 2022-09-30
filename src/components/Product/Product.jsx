@@ -3,8 +3,24 @@ import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import styled from "styled-components";
 
-const Product = () => {
-  return <div>Product</div>;
+const Product = ({ item }) => {
+  return (
+    <Container>
+      <Circle />
+      <Image src={item.img} />
+      <Info>
+        <Icon>
+          <ShoppingCartIcon />
+        </Icon>
+        <Icon>
+          <SearchIcon />
+        </Icon>
+        <Icon>
+          <FavoriteBorderIcon />
+        </Icon>
+      </Info>
+    </Container>
+  );
 };
 
 export default Product;
