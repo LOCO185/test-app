@@ -10,7 +10,13 @@ const Container = styled.div`
 `;
 
 const Products = () => {
-  return <div>Products</div>;
+  return (
+    <Container>
+      {popularProducts.map((item) => (
+        <Product item={item} key={item.id} />
+      ))}
+    </Container>
+  );
 };
 
 export default Products;
