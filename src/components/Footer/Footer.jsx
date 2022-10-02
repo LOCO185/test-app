@@ -45,6 +45,14 @@ const Title = styled.h3`
   margin-bottom: 30px;
 `;
 
+const List = styled.ul`
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+`;
+
 const Footer = () => {
   return <div>Footer</div>;
 };
