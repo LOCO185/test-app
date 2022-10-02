@@ -6,6 +6,13 @@ const Container = styled.div`
   ${mobile({ flexDirection: "column" })}
 `;
 
+const Left = styled.div`
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+`;
+
 const Footer = () => {
   return <div>Footer</div>;
 };
