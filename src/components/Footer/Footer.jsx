@@ -41,6 +41,10 @@ const Center = styled.div`
   ${mobile({ display: "none" })}
 `;
 
+const Title = styled.h3`
+  margin-bottom: 30px;
+`;
+
 const Footer = () => {
   return <div>Footer</div>;
 };
