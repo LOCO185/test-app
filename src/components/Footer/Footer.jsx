@@ -15,6 +15,10 @@ const Left = styled.div`
 
 const Logo = styled.h1``;
 
+const Desc = styled.p`
+  margin: 20px 0px;
+`;
+
 const Footer = () => {
   return <div>Footer</div>;
 };
