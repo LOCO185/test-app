@@ -1,6 +1,6 @@
 import styled from "styled-components";
 // import mobile responsive
-
+// import icons
 const Container = styled.div`
   display: flex;
   ${mobile({ flexDirection: "column" })}
