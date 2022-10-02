@@ -64,6 +64,12 @@ const Right = styled.div`
   ${mobile({ backgroundColor: "#fff8f8" })}
 `;
 
+const ContactItem = styled.div`
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+`;
+
 const Footer = () => {
   return <div>Footer</div>;
 };
