@@ -19,6 +19,10 @@ const Desc = styled.p`
   margin: 20px 0px;
 `;
 
+const SocialContainer = styled.div`
+  display: flex;
+`;
+
 const Footer = () => {
   return <div>Footer</div>;
 };
