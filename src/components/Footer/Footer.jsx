@@ -53,6 +53,17 @@ const List = styled.ul`
   flex-wrap: wrap;
 `;
 
+const ListItem = styled.li`
+  width: 50%;
+  margin-bottom: 10px;
+`;
+
+const Right = styled.div`
+  flex: 1;
+  padding: 20px;
+  ${mobile({ backgroundColor: "#fff8f8" })}
+`;
+
 const Footer = () => {
   return <div>Footer</div>;
 };
