@@ -1,4 +1,5 @@
 import styled from "styled-components";
+// import mobile responsive
 
 const Container = styled.div`
   flex: 1;
