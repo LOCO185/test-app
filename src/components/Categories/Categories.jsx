@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { categories } from "../Data/Data";
+// import mobile responsive
 import CategoryItem from "./CategoryItem";
 import "./style.css";
 
