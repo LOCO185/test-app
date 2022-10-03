@@ -94,9 +94,10 @@ const Footer = () => {
           saepe laboriosam!
         </Desc>
         <SocialContainer>
-          <SocialIcon>{/* facebook */}</SocialIcon>
-          <SocialIcon>{/* instagram */}</SocialIcon>
-          <SocialIcon>{/* twitter */}</SocialIcon>
+          <SocialIcon><FacebookIcon /></SocialIcon>
+          <SocialIcon><InstagramIcon /></SocialIcon>
+          <SocialIcon><TwitterIcon /></SocialIcon>
+          <SocialIcon><PinterestIcon /></SocialIcon>
         </SocialContainer>
       </Left>
       <Center>
@@ -117,14 +118,14 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <Room style={{ marginRight: "10px" }} /> 622 Israel , South
+          <RoomIcon style={{ marginRight: "10px" }} /> 622 Israel , South
           Tobinchester 98336
         </ContactItem>
         <ContactItem>
-          <Phone style={{ marginRight: "10px" }} /> +1 234 56 78
+          <PhoneIcon style={{ marginRight: "10px" }} /> +1 234 56 78
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{ marginRight: "10px" }} /> contact@Jawad.loco
+          <MailIcon style={{ marginRight: "10px" }} /> contact@Jawad.loco
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
