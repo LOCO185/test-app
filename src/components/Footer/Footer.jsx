@@ -71,7 +71,7 @@ const ContactItem = styled.div`
 `;
 
 const Payment = styled.img`
-    width: 50%;
+  width: 50%;
 `;
 
 const Footer = () => {
@@ -79,6 +79,12 @@ const Footer = () => {
     <Container>
       <Left>
         <Logo>LOCO.</Logo>
+        <Desc>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad similique
+          itaque repudiandae quas quaerat? Perspiciatis aspernatur alias numquam
+          ipsam cum. Quod facilis voluptas et harum excepturi maxime quisquam
+          saepe laboriosam!
+        </Desc>
       </Left>
     </Container>
   );
