@@ -78,7 +78,7 @@ const Footer = () => {
   return (
     <Container>
       <Left>
-        
+        <Logo>LOCO.</Logo>
       </Left>
     </Container>
   );
