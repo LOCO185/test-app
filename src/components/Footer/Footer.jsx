@@ -93,10 +93,18 @@ const Footer = () => {
           saepe laboriosam!
         </Desc>
         <SocialContainer>
-          <SocialIcon><FacebookIcon /></SocialIcon>
-          <SocialIcon><InstagramIcon /></SocialIcon>
-          <SocialIcon><TwitterIcon /></SocialIcon>
-          <SocialIcon><PinterestIcon /></SocialIcon>
+          <SocialIcon>
+            <FacebookIcon />
+          </SocialIcon>
+          <SocialIcon>
+            <InstagramIcon />
+          </SocialIcon>
+          <SocialIcon>
+            <TwitterIcon />
+          </SocialIcon>
+          <SocialIcon>
+            <PinterestIcon />
+          </SocialIcon>
         </SocialContainer>
       </Left>
       <Center>
