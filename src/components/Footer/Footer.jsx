@@ -85,6 +85,17 @@ const Footer = () => {
           ipsam cum. Quod facilis voluptas et harum excepturi maxime quisquam
           saepe laboriosam!
         </Desc>
+        <SocialContainer>
+          <SocialIcon>
+            {/* facebook */}
+          </SocialIcon>
+          <SocialIcon>
+            {/* instagram */}
+          </SocialIcon>
+          <SocialIcon>
+            {/* twitter */}
+          </SocialIcon>
+        </SocialContainer>
       </Left>
     </Container>
   );
