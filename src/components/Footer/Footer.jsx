@@ -86,15 +86,9 @@ const Footer = () => {
           saepe laboriosam!
         </Desc>
         <SocialContainer>
-          <SocialIcon>
-            {/* facebook */}
-          </SocialIcon>
-          <SocialIcon>
-            {/* instagram */}
-          </SocialIcon>
-          <SocialIcon>
-            {/* twitter */}
-          </SocialIcon>
+          <SocialIcon>{/* facebook */}</SocialIcon>
+          <SocialIcon>{/* instagram */}</SocialIcon>
+          <SocialIcon>{/* twitter */}</SocialIcon>
         </SocialContainer>
       </Left>
       <Center>
@@ -112,6 +106,20 @@ const Footer = () => {
           <ListItem>Terms</ListItem>
         </List>
       </Center>
+      <Right>
+        <Title>Contact</Title>
+        <ContactItem>
+          <Room style={{ marginRight: "10px" }} /> 622 Israel , South
+          Tobinchester 98336
+        </ContactItem>
+        <ContactItem>
+          <Phone style={{ marginRight: "10px" }} /> +1 234 56 78
+        </ContactItem>
+        <ContactItem>
+          <MailOutline style={{ marginRight: "10px" }} /> contact@Jawad.loco
+        </ContactItem>
+        <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
+      </Right>
     </Container>
   );
 };
