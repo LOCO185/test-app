@@ -75,7 +75,13 @@ const Payment = styled.img`
 `;
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <Container>
+      <Left>
+        
+      </Left>
+    </Container>
+  );
 };
 
 export default Footer;
