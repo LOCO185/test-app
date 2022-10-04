@@ -6,7 +6,15 @@ import styled from "styled-components";
 import { mobile } from "../../responsive";
 
 const Navbar = () => {
-  return <div>Navbar</div>;
+  return (
+    <Container>
+        <Wrapper>
+            <Left>
+                
+            </Left>
+        </Wrapper>
+    </Container>
+  );
 };
 
 export default Navbar;
