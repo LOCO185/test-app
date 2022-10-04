@@ -10,7 +10,11 @@ const Navbar = () => {
     <Container>
         <Wrapper>
             <Left>
-                
+                <Language>EN</Language>
+                <SearchContainer>
+                    <Input placeholder="Search" />
+                    <SearchIcon style={{ color: "gray", fontSize: 16}} />
+                </SearchContainer>
             </Left>
         </Wrapper>
     </Container>
