@@ -16,6 +16,9 @@ const Navbar = () => {
                     <SearchIcon style={{ color: "gray", fontSize: 16}} />
                 </SearchContainer>
             </Left>
+            <Center>
+                <Logo>LOCO,</Logo>
+            </Center>
         </Wrapper>
     </Container>
   );
