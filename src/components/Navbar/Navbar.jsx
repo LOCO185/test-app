@@ -19,6 +19,12 @@ const Navbar = () => {
             <Center>
                 <Logo>LOCO,</Logo>
             </Center>
+            <Right>
+                <MenuItem>REGISTER</MenuItem>
+                <MenuItem>SIGN IN</MenuItem>
+                <MenuItem>
+                </MenuItem>
+            </Right>
         </Wrapper>
     </Container>
   );
