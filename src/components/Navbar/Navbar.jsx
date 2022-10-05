@@ -53,6 +53,14 @@ const Logo = styled.h1`
   ${mobile({ fontSize: "24px" })}
 `;
 
+const Right = styled.div`
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  ${mobile({ flex: 2, justifyContent: "center" })}
+`;
+
 const Navbar = () => {
   return (
     <Container>
