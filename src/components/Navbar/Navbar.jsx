@@ -38,6 +38,11 @@ const SearchContainer = styled.div`
   padding: 5px;
 `;
 
+const Center = styled.div`
+  flex: 1;
+  text-align: center;
+`;
+
 const Input = styled.input`
   border: none;
   ${mobile({ width: "50px" })}
