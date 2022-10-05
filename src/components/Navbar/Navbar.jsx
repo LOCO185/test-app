@@ -38,6 +38,11 @@ const SearchContainer = styled.div`
   padding: 5px;
 `;
 
+const Input = styled.input`
+  border: none;
+  ${mobile({ width: "50px" })}
+`;
+
 const Navbar = () => {
   return (
     <Container>
