@@ -5,6 +5,11 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import styled from "styled-components";
 import { mobile } from "../../responsive";
 
+const Container = styled.div`
+  height: 60px;
+  ${mobile({ height: "50px" })}
+`;
+
 const Navbar = () => {
   return (
     <Container>
