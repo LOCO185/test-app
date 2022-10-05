@@ -24,6 +24,12 @@ const Left = styled.div`
   align-items: center;
 `;
 
+const Language = styled.span`
+  font-size: 14px;
+  cursor: pointer;
+  ${mobile({ display: "none" })}
+`;
+
 const Navbar = () => {
   return (
     <Container>
