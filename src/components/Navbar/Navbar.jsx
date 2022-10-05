@@ -10,6 +10,14 @@ const Container = styled.div`
   ${mobile({ height: "50px" })}
 `;
 
+const Wrapper = styled.div`
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  ${mobile({ padding: "10px 0px" })}
+`;
+
 const Navbar = () => {
   return (
     <Container>
