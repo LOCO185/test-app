@@ -23,7 +23,7 @@ const Navbar = () => {
                 <MenuItem>REGISTER</MenuItem>
                 <MenuItem>SIGN IN</MenuItem>
                 <MenuItem>
-                {/* need to continue from here */}
+                    
                 </MenuItem>
             </Right>
         </Wrapper>
