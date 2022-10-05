@@ -18,6 +18,12 @@ const Wrapper = styled.div`
   ${mobile({ padding: "10px 0px" })}
 `;
 
+const Left = styled.div`
+  flex: 1;
+  display: flex;
+  align-items: center;
+`;
+
 const Navbar = () => {
   return (
     <Container>
