@@ -48,6 +48,11 @@ const Input = styled.input`
   ${mobile({ width: "50px" })}
 `;
 
+const Logo = styled.h1`
+  font-weight: bold;
+  ${mobile({ fontSize: "24px" })}
+`;
+
 const Navbar = () => {
   return (
     <Container>
