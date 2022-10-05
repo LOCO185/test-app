@@ -30,6 +30,14 @@ const Language = styled.span`
   ${mobile({ display: "none" })}
 `;
 
+const SearchContainer = styled.div`
+  border: 0.5px solid lightgray;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  padding: 5px;
+`;
+
 const Navbar = () => {
   return (
     <Container>
