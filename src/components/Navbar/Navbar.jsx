@@ -8,27 +8,27 @@ import { mobile } from "../../responsive";
 const Navbar = () => {
   return (
     <Container>
-        <Wrapper>
-            <Left>
-                <Language>EN</Language>
-                <SearchContainer>
-                    <Input placeholder="Search" />
-                    <SearchIcon style={{ color: "gray", fontSize: 16}} />
-                </SearchContainer>
-            </Left>
-            <Center>
-                <Logo>LOCO,</Logo>
-            </Center>
-            <Right>
-                <MenuItem>REGISTER</MenuItem>
-                <MenuItem>SIGN IN</MenuItem>
-                <MenuItem>
-                    <Badge badgeContent={4} color="primary">
-                        <ShoppingCartIcon />
-                    </Badge>
-                </MenuItem>
-            </Right>
-        </Wrapper>
+      <Wrapper>
+        <Left>
+          <Language>EN</Language>
+          <SearchContainer>
+            <Input placeholder="Search" />
+            <SearchIcon style={{ color: "gray", fontSize: 16 }} />
+          </SearchContainer>
+        </Left>
+        <Center>
+          <Logo>LOCO,</Logo>
+        </Center>
+        <Right>
+          <MenuItem>REGISTER</MenuItem>
+          <MenuItem>SIGN IN</MenuItem>
+          <MenuItem>
+            <Badge badgeContent={4} color="primary">
+              <ShoppingCartIcon />
+            </Badge>
+          </MenuItem>
+        </Right>
+      </Wrapper>
     </Container>
   );
 };
