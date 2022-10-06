@@ -12,6 +12,11 @@ const Container = styled.div`
   flex-direction: column;
 `;
 
+const Title = styled.h1`
+  font-size: 70px;
+  margin-bottom: 20px;
+`;
+
 const NewsLetter = () => {
   return <div>NewsLetter</div>;
 };
