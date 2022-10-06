@@ -46,7 +46,7 @@ const Button = styled.button`
   background-color: teal;
   color: white;
 `;
-// here
+
 const NewsLetter = () => {
   return <div>NewsLetter</div>;
 };
