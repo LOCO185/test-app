@@ -34,6 +34,12 @@ const InputContainer = styled.div`
   ${mobile({ width: "80%" })}
 `;
 
+const Input = styled.input`
+  border: none;
+  flex: 8;
+  padding-left: 20px;
+`;
+
 const NewsLetter = () => {
   return <div>NewsLetter</div>;
 };
