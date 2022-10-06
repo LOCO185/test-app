@@ -24,6 +24,16 @@ const Desc = styled.div`
   ${mobile({ textAlign: "center" })}
 `;
 
+const InputContainer = styled.div`
+  width: 50%;
+  height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  ${mobile({ width: "80%" })}
+`;
+
 const NewsLetter = () => {
   return <div>NewsLetter</div>;
 };
