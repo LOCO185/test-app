@@ -40,6 +40,12 @@ const Input = styled.input`
   padding-left: 20px;
 `;
 
+const Button = styled.button`
+  flex: 1;
+  border: none;
+  background-color: teal;
+  color: white;
+`;
 // here
 const NewsLetter = () => {
   return <div>NewsLetter</div>;
