@@ -40,6 +40,7 @@ const Input = styled.input`
   padding-left: 20px;
 `;
 
+// here
 const NewsLetter = () => {
   return <div>NewsLetter</div>;
 };
