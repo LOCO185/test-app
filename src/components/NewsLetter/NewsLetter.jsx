@@ -48,7 +48,12 @@ const Button = styled.button`
 `;
 
 const NewsLetter = () => {
-  return <div>NewsLetter</div>;
+  return (
+    <Container>
+      <Title>Newsletter</Title>
+      <Desc>Get timely updates from your favorite products.</Desc>
+    </Container>
+  );
 };
 
 export default NewsLetter;
