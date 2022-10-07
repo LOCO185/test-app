@@ -1,8 +1,5 @@
 import React from "react";
 import "./style.css";
-// import Cart from "../Cart/Cart";
-// import { Link } from 'react-router-dom';
-
 const Header = () => {
   return (
     <header className="header">
