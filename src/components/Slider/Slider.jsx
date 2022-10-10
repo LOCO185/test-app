@@ -62,6 +62,10 @@ const InfoContainer = styled.div`
   padding: 50px;
 `;
 
+const Title = styled.h1`
+  font-size: 70px;
+`;
+
 const Slider = () => {
   return <div>Slider</div>;
 };
