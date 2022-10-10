@@ -53,6 +53,10 @@ const ImgContainer = styled.div`
   flex: 1;
 `;
 
+const Image = styled.img`
+  height: 80%;
+`;
+
 const Slider = () => {
   return <div>Slider</div>;
 };
