@@ -48,6 +48,11 @@ const Slide = styled.div`
   background-color: #${(props) => props.bg};
 `;
 
+const ImgContainer = styled.div`
+  height: 100%;
+  flex: 1;
+`;
+
 const Slider = () => {
   return <div>Slider</div>;
 };
