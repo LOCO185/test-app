@@ -40,6 +40,14 @@ const Wrapper = styled.div`
   transform: translateX(${(props) => props.slideIndex * -100}vw);
 `;
 
+const Slide = styled.div`
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #${(props) => props.bg};
+`;
+
 const Slider = () => {
   return <div>Slider</div>;
 };
