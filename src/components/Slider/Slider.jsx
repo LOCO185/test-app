@@ -81,7 +81,7 @@ const Button = styled.button`
 `;
 
 const Slider = () => {
-  return <div>Slider</div>;
+  return <Container></Container>;
 };
 
 export default Slider;
