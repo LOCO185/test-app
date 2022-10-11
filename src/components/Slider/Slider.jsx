@@ -79,7 +79,7 @@ const Button = styled.button`
   background-color: transparent;
   cursor: pointer;
 `;
-
+// here
 const Slider = () => {
   return <div>Slider</div>;
 };
