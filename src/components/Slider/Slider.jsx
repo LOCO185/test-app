@@ -80,9 +80,14 @@ const Button = styled.button`
   cursor: pointer;
 `;
 
-
 const Slider = () => {
-  return <Container></Container>;
+  return (
+    <Container>
+      <Arrow direction="left" onClick={() => handleClick("left")}>
+        <ArrowLeftIcon />
+      </Arrow>
+    </Container>
+  );
 };
 
 export default Slider;
