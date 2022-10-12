@@ -7,7 +7,16 @@ import Products from "../components/Products/Products";
 import Slider from "../components/Slider/Slider";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Navbar />
+      <Slider />
+      <Categories />
+      <Products />
+      <NewsLetter />
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;
