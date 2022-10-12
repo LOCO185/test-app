@@ -16,6 +16,13 @@ const Container = styled.div`
   justify-content: center;
 `;
 
+const Wrapper = styled.div`
+  width: 40%;
+  padding: 20px;
+  background-color: white;
+  ${mobile({ width: "75%" })}
+`;
+
 function Register() {
   return <div>Register</div>;
 }
