@@ -33,6 +33,13 @@ const Form = styled.form`
   flex-wrap: wrap;
 `;
 
+const Input = styled.input`
+  flex: 1;
+  min-width: 40%;
+  margin: 20px 10px 0px 0px;
+  padding: 10px;
+`;
+
 function Register() {
   return <div>Register</div>;
 }
