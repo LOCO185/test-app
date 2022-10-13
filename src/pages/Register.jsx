@@ -66,6 +66,10 @@ function Register() {
           <Input placeholder="email" />
           <Input placeholder="password" />
           <Input placeholder="confirm password" />
+          <Agreement>
+            By creating an account, I consent to the processing of my personal
+            data in accordance with the <b>PRIVACY POLICY</b>
+          </Agreement>
         </Form>
       </Wrapper>
     </Container>
