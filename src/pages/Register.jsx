@@ -59,6 +59,14 @@ function Register() {
     <Container>
       <Wrapper>
         <Title>CREATE AN ACCOUNT</Title>
+        <Form>
+          <Input placeholder="name" />
+          <Input placeholder="last name" />
+          <Input placeholder="username" />
+          <Input placeholder="email" />
+          <Input placeholder="password" />
+          <Input placeholder="confirm password" />
+        </Form>
       </Wrapper>
     </Container>
   );
