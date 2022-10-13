@@ -28,6 +28,11 @@ const Title = styled.h1`
   font-weight: 300;
 `;
 
+const Form = styled.form`
+  display: flex;
+  flex-wrap: wrap;
+`;
+
 function Register() {
   return <div>Register</div>;
 }
