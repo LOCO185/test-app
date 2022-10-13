@@ -55,7 +55,13 @@ const Button = styled.button`
 `;
 
 function Register() {
-  return <div>Register</div>;
+  return (
+    <Container>
+      <Wrapper>
+        <Title>CREATE AN ACCOUNT</Title>
+      </Wrapper>
+    </Container>
+  );
 }
 
 export default Register;
