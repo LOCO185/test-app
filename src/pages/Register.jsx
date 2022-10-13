@@ -70,6 +70,7 @@ function Register() {
             By creating an account, I consent to the processing of my personal
             data in accordance with the <b>PRIVACY POLICY</b>
           </Agreement>
+          <Button>CREATE</Button>
         </Form>
       </Wrapper>
     </Container>
