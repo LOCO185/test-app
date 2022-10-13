@@ -45,6 +45,15 @@ const Agreement = styled.span`
   margin: 20px 0px;
 `;
 
+const Button = styled.button`
+  width: 40%;
+  border: none;
+  padding: 15px 20px;
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+`;
+
 function Register() {
   return <div>Register</div>;
 }
