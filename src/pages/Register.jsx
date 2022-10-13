@@ -40,6 +40,11 @@ const Input = styled.input`
   padding: 10px;
 `;
 
+const Agreement = styled.span`
+  font-size: 12px;
+  margin: 20px 0px;
+`;
+
 function Register() {
   return <div>Register</div>;
 }
