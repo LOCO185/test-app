@@ -58,7 +58,13 @@ const Link = styled.a`
 `;
 
 const Login = () => {
-  return <div>Login</div>;
+  return (
+    <Container>
+      <Wrapper>
+        <Title>SIGN IN</Title>
+      </Wrapper>
+    </Container>
+  );
 };
 
 export default Login;
