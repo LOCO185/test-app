@@ -33,6 +33,13 @@ const Form = styled.form`
   flex-direction: column;
 `;
 
+const Input = styled.input`
+  flex: 1;
+  min-width: 40%;
+  margin: 10px 0;
+  padding: 10px;
+`;
+
 const Login = () => {
   return <div>Login</div>;
 };
