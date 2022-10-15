@@ -34,6 +34,15 @@ const TopButton = styled.button`
   color: ${(props) => props.type === "filled" && "white"};
 `;
 
+const TopTexts = styled.div`
+  ${mobile({ display: "none" })}
+`;
+const TopText = styled.span`
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0px 10px;
+`;
+
 const Cart = () => {
   return (
     <Container>
