@@ -8,7 +8,11 @@ import RemoveIcon from '@mui/icons-material/Remove';
 const Container = styled.div``;
 
 const Cart = () => {
-  return <div>Cart</div>;
+  return (
+    <Container>
+      
+    </Container>
+  );
 };
 
 export default Cart;
