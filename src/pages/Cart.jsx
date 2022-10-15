@@ -15,7 +15,9 @@ const Wrapper = styled.div`
 const Cart = () => {
   return (
     <Container>
-
+      <Wrapper>
+        
+      </Wrapper>
     </Container>
   );
 };
