@@ -20,7 +20,9 @@ const Title = styled.h1`
 const Cart = () => {
   return (
     <Container>
-      <Wrapper></Wrapper>
+      <Wrapper>
+        <Title>YOUR BAG</Title>
+      </Wrapper>
     </Container>
   );
 };
