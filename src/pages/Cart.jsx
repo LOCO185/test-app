@@ -17,6 +17,13 @@ const Title = styled.h1`
   text-align: center;
 `;
 
+const Top = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+`;
+
 const Cart = () => {
   return (
     <Container>
