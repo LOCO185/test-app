@@ -49,6 +49,10 @@ const Bottom = styled.div`
   ${mobile({ flexDirection: "column" })}
 `;
 
+const Info = styled.div`
+  flex: 3;
+`;
+
 const Cart = () => {
   return (
     <Container>
