@@ -59,6 +59,11 @@ const Product = styled.div`
   ${mobile({ flexDirection: "column" })}
 `;
 
+const ProductDetail = styled.div`
+  flex: 2;
+  display: flex;
+`;
+
 const Cart = () => {
   return (
     <Container>
