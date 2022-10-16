@@ -64,6 +64,10 @@ const ProductDetail = styled.div`
   display: flex;
 `;
 
+const Image = styled.img`
+  width: 200px;
+`;
+
 const Cart = () => {
   return (
     <Container>
