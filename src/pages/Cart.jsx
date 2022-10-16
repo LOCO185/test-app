@@ -43,6 +43,12 @@ const TopText = styled.span`
   margin: 0px 10px;
 `;
 
+const Bottom = styled.div`
+  display: flex;
+  justify-content: space-between;
+  ${mobile({ flexDirection: "column" })}
+`;
+
 const Cart = () => {
   return (
     <Container>
