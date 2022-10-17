@@ -178,6 +178,7 @@ const Cart = () => {
                   <ProductId>
                     <b>ID:</b> 93813718293
                   </ProductId>
+                  <ProductColor color="black" />
                 </Details>
               </PriceDetail>
             </Product>
