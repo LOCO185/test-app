@@ -166,6 +166,9 @@ const Cart = () => {
           </TopTexts>
           <TopButton type="filled">CHECKOUT NOW</TopButton>
         </Top>
+        <Bottom>
+          
+        </Bottom>
       </Wrapper>
     </Container>
   );
