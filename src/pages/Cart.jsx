@@ -175,6 +175,9 @@ const Cart = () => {
                   <ProductName>
                     <b>Product:</b> JESSIE THUNDER SHOES
                   </ProductName>
+                  <ProductId>
+                    <b>ID:</b> 93813718293
+                  </ProductId>
                 </Details>
               </PriceDetail>
             </Product>
