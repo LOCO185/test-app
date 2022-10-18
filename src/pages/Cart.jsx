@@ -210,6 +210,14 @@ const Cart = () => {
                   </ProductSize>
                 </Details>
               </ProductDetail>
+              <PriceDetail>
+                <ProductAmountContainer>
+                  <Add />
+                  <ProductAmount>1</ProductAmount>
+                  <Remove />
+                </ProductAmountContainer>
+                <ProductPrice>$ 20</ProductPrice>
+              </PriceDetail>
             </Product>
           </Info>
         </Bottom>
