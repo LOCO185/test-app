@@ -193,7 +193,7 @@ const Cart = () => {
                 <ProductPrice>$ 30</ProductPrice>
               </PriceDetail>
             </Product>
-            {/* Here */}
+            <Hr />
           </Info>
         </Bottom>
       </Wrapper>
