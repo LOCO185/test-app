@@ -220,6 +220,9 @@ const Cart = () => {
               </PriceDetail>
             </Product>
           </Info>
+          <Summary>
+            <SummaryTitle>ORDER SUMMARY</SummaryTitle>
+          </Summary>
         </Bottom>
       </Wrapper>
     </Container>
