@@ -186,9 +186,9 @@ const Cart = () => {
               </ProductDetail>
               <PriceDetail>
                 <ProductAmountContainer>
-                  <Add />
+                  <AddIcon />
                   <ProductAmount>2</ProductAmount>
-                  <Remove />
+                  <RemoveIcon />
                 </ProductAmountContainer>
                 <ProductPrice>$ 30</ProductPrice>
               </PriceDetail>
