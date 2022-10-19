@@ -6,6 +6,12 @@ import NewsLetter from "../components/NewsLetter/NewsLetter";
 
 const Container = styled.div``;
 
+const Wrapper = styled.div`
+  padding: 50px;
+  display: flex;
+  ${mobile({ padding: "10px", flexDirection: "column" })}
+`;
+
 const Product = () => {
   return <div>Product</div>;
 };
