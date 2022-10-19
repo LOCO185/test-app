@@ -12,6 +12,10 @@ const Wrapper = styled.div`
   ${mobile({ padding: "10px", flexDirection: "column" })}
 `;
 
+const ImgContainer = styled.div`
+  flex: 1;
+`;
+
 const Product = () => {
   return <div>Product</div>;
 };
