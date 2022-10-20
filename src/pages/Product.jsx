@@ -23,6 +23,12 @@ const Image = styled.img`
   ${mobile({ height: "40vh" })}
 `;
 
+const InfoContainer = styled.div`
+  flex: 1;
+  padding: 0px 50px;
+  ${mobile({ padding: "10px" })}
+`;
+
 const Product = () => {
   return <div>Product</div>;
 };
