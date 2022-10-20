@@ -55,6 +55,11 @@ const Filter = styled.div`
   align-items: center;
 `;
 
+const FilterTitle = styled.span`
+  font-size: 20px;
+  font-weight: 200;
+`;
+
 const Product = () => {
   return <div>Product</div>;
 };
