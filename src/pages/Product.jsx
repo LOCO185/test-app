@@ -50,6 +50,11 @@ const FilterContainer = styled.div`
   ${mobile({ width: "100%" })}
 `;
 
+const Filter = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
 const Product = () => {
   return <div>Product</div>;
 };
