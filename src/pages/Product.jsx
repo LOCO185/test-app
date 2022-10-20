@@ -74,6 +74,8 @@ const FilterSize = styled.select`
   padding: 5px;
 `;
 
+const FilterSizeOption = styled.option``;
+
 const Product = () => {
   return <div>Product</div>;
 };
