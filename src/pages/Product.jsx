@@ -69,6 +69,11 @@ const FilterColor = styled.div`
   cursor: pointer;
 `;
 
+const FilterSize = styled.select`
+  margin-left: 10px;
+  padding: 5px;
+`;
+
 const Product = () => {
   return <div>Product</div>;
 };
