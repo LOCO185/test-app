@@ -29,6 +29,10 @@ const InfoContainer = styled.div`
   ${mobile({ padding: "10px" })}
 `;
 
+const Title = styled.h1`
+  font-weight: 200;
+`;
+
 const Product = () => {
   return <div>Product</div>;
 };
