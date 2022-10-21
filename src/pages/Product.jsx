@@ -112,7 +112,7 @@ const Button = styled.button`
   }
 `;
 const Product = () => {
-  return <div>Product</div>;
+  return <Container></Container>;
 };
 
 export default Product;
