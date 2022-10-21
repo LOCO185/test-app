@@ -119,6 +119,9 @@ const Product = () => {
         <ImgContainer>
           <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
         </ImgContainer>
+        <InfoContainer>
+          <Title>Denim Jumpsuit</Title>
+        </InfoContainer>
       </Wrapper>
     </Container>
   );
