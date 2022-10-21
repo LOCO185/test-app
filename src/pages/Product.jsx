@@ -84,6 +84,12 @@ const AddContainer = styled.div`
   ${mobile({ width: "100%" })}
 `;
 
+const AmountContainer = styled.div`
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+`;
+
 const Product = () => {
   return <div>Product</div>;
 };
