@@ -107,6 +107,9 @@ const Button = styled.button`
   background-color: white;
   cursor: pointer;
   font-weight: 500;
+  &:hover {
+    background-color: #f8f4f4;
+  }
 `;
 const Product = () => {
   return <div>Product</div>;
