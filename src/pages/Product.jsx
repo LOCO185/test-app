@@ -112,7 +112,14 @@ const Button = styled.button`
   }
 `;
 const Product = () => {
-  return <Container></Container>;
+  return (
+    <Container>
+      <Navbar />
+      <Wrapper>
+        <ImgContainer></ImgContainer>
+      </Wrapper>
+    </Container>
+  );
 };
 
 export default Product;
