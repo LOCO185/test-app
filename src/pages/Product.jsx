@@ -130,7 +130,12 @@ const Product = () => {
           </Desc>
           <Price>$ 20</Price>
           <FilterContainer>
-            <Filter></Filter>
+            <Filter>
+              <FilterTitle>Color</FilterTitle>
+              <FilterColor color="black" />
+              <FilterColor color="darkblue" />
+              <FilterColor color="gray" />
+            </Filter>
           </FilterContainer>
         </InfoContainer>
       </Wrapper>
