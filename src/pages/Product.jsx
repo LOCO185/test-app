@@ -129,6 +129,9 @@ const Product = () => {
             condimentum ac, volutpat ornare.
           </Desc>
           <Price>$ 20</Price>
+          <FilterContainer>
+            <Filter></Filter>
+          </FilterContainer>
         </InfoContainer>
       </Wrapper>
     </Container>
