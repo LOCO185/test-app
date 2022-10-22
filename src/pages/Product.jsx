@@ -128,6 +128,7 @@ const Product = () => {
             tristique tortor pretium ut. Curabitur elit justo, consequat id
             condimentum ac, volutpat ornare.
           </Desc>
+          <Price>$ 20</Price>
         </InfoContainer>
       </Wrapper>
     </Container>
