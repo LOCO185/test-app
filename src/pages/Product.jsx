@@ -152,9 +152,9 @@ const Product = () => {
           </FilterContainer>
           <AddContainer>
             <AmountContainer>
-              <Remove />
+              <RemoveIcon />
               <Amount>1</Amount>
-              <Add />
+              <AddIcon />
             </AmountContainer>
             <Button>ADD TO CART</Button>
           </AddContainer>
