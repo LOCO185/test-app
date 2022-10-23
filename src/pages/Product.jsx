@@ -157,6 +157,7 @@ const Product = () => {
           </AddContainer>
         </InfoContainer>
       </Wrapper>
+      <Footer />
     </Container>
   );
 };
