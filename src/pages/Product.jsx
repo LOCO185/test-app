@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { mobile } from "../responsive";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
+import RemoveIcon from "@mui/icons-material/Remove";
+import AddIcon from "@mui/icons-material/Add";
 
 const Container = styled.div``;
 
