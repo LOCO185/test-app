@@ -2,8 +2,10 @@ import styled from "styled-components";
 import { mobile } from "../responsive";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
+import Newsletter from "../components/NewsLetter/NewsLetter";
 import RemoveIcon from "@mui/icons-material/Remove";
 import AddIcon from "@mui/icons-material/Add";
+import NewsLetter from "../components/NewsLetter/NewsLetter";
 
 const Container = styled.div``;
 
@@ -158,6 +160,7 @@ const Product = () => {
           </AddContainer>
         </InfoContainer>
       </Wrapper>
+      <NewsLetter />
       <Footer />
     </Container>
   );
