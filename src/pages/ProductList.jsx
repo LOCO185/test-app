@@ -11,6 +11,11 @@ const Title = styled.h1`
   margin: 20px;
 `;
 
+const FilterContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+
 const ProductList = () => {
   return <div>ProductList</div>;
 };
