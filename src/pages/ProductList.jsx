@@ -7,6 +7,10 @@ import { mobile } from "../responsive";
 
 const Container = styled.div``;
 
+const Title = styled.h1`
+  margin: 20px;
+`;
+
 const ProductList = () => {
   return <div>ProductList</div>;
 };
