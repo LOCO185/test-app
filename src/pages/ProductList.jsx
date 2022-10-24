@@ -34,6 +34,8 @@ const Select = styled.select`
   ${mobile({ margin: "10px 0px" })}
 `;
 
+const Option = styled.option``;
+
 const ProductList = () => {
   return <div>ProductList</div>;
 };
