@@ -21,6 +21,13 @@ const Filter = styled.div`
   ${mobile({ width: "0px 20px", display: "flex", flexDirection: "column" })}
 `;
 
+const FilterText = styled.span`
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+  ${mobile({ marginRight: "0px" })}
+`;
+
 const ProductList = () => {
   return <div>ProductList</div>;
 };
