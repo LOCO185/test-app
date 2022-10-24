@@ -16,6 +16,11 @@ const FilterContainer = styled.div`
   justify-content: space-between;
 `;
 
+const Filter = styled.div`
+  margin: 20px;
+  ${mobile({ width: "0px 20px", display: "flex", flexDirection: "column" })}
+`;
+
 const ProductList = () => {
   return <div>ProductList</div>;
 };
