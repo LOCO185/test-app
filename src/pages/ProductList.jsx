@@ -75,6 +75,7 @@ const ProductList = () => {
           </Select>
         </Filter>
       </FilterContainer>
+      <Products />
     </Container>
   );
 };
