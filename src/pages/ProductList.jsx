@@ -41,7 +41,7 @@ const ProductList = () => {
     <Container>
       <Navbar>
         <Title>Dresses</Title>
-        <FilterContainer></FilterContainer>
+        <FilterContainer>
         <Filter>
           <FilterText>Filter Products:</FilterText>
           <Select>
@@ -74,6 +74,7 @@ const ProductList = () => {
             <Option>Price (desc)</Option>
           </Select>
         </Filter>
+        </FilterContainer>
       </Navbar>
     </Container>
   );
