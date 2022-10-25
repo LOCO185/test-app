@@ -41,6 +41,8 @@ const ProductList = () => {
     <Container>
       <Navbar>
         <Title>Dresses</Title>
+        <FilterContainer></FilterContainer>
+        <Filter></Filter>
       </Navbar>
     </Container>
   );
