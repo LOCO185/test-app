@@ -66,6 +66,14 @@ const ProductList = () => {
             <Option>XL</Option>
           </Select>
         </Filter>
+        <Filter>
+          <FilterText>Sort Products:</FilterText>
+          <Select>
+            <Option selected>Newest</Option>
+            <Option>Price (asc)</Option>
+            <Option>Price (desc)</Option>
+          </Select>
+        </Filter>
       </Navbar>
     </Container>
   );
