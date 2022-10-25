@@ -37,7 +37,13 @@ const Select = styled.select`
 const Option = styled.option``;
 
 const ProductList = () => {
-  return <Container></Container>;
+  return (
+    <Container>
+      <Navbar>
+        <Title>Dresses</Title>
+      </Navbar>
+    </Container>
+  );
 };
 
 export default ProductList;
