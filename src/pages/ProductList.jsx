@@ -77,6 +77,7 @@ const ProductList = () => {
       </FilterContainer>
       <Products />
       <NewsLetter />
+      <Footer />
     </Container>
   );
 };
