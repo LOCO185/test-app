@@ -10,11 +10,6 @@ import Womens from "./components/Womens/Womens";
 function Product() {
   return (
     <div className="main">
-        <div>
-          <Header />
-          <Switch>
-          </Switch>
-        </div>
     </div>
   );
 }
