@@ -13,7 +13,6 @@ function Product() {
         <div>
           <Header />
           <Switch>
-            {/* <Route path="/homepage" exact component={HomePage} /> */}
             <Redirect path="/shops" exact component={Shops} />
             <Redirect path="/mens" exact component={Mens} />
             <Redirect path="/exclusive" exact component={Exclusive} />
