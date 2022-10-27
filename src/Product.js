@@ -10,7 +10,6 @@ import Womens from "./components/Womens/Womens";
 function Product() {
   return (
     <div className="main">
-      {/* <BrowserRouter> */}
         <div>
           <Header />
           <Switch>
@@ -21,7 +20,6 @@ function Product() {
             <Redirect path="/womens" exact component={Womens} />
           </Switch>
         </div>
-      {/* </BrowserRouter> */}
     </div>
   );
 }
