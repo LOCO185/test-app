@@ -13,10 +13,6 @@ function Product() {
         <div>
           <Header />
           <Switch>
-            <Redirect path="/shops" exact component={Shops} />
-            <Redirect path="/mens" exact component={Mens} />
-            <Redirect path="/exclusive" exact component={Exclusive} />
-            <Redirect path="/womens" exact component={Womens} />
           </Switch>
         </div>
     </div>
