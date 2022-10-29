@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { mobile } from "../../responsive";
 import SendIcon from "@mui/icons-material/Send";
+import { Send } from "@material-ui/icons";
 
 const Container = styled.div`
   height: 60vh;
@@ -47,7 +48,7 @@ const Button = styled.button`
   color: white;
 `;
 
-const NewsLetter = () => {
+const Newsletter = () => {
   return (
     <Container>
       <Title>Newsletter</Title>
@@ -55,11 +56,11 @@ const NewsLetter = () => {
       <InputContainer>
         <Input placeholder="Your email" />
         <Button>
-          <SendIcon />
+          <Send />
         </Button>
       </InputContainer>
     </Container>
   );
 };
 
-export default NewsLetter;
+export default Newsletter;
