@@ -2,6 +2,11 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import styled from "styled-components";
+import {
+  FavoriteBorderOutlined,
+  SearchOutlined,
+  ShoppingCartOutlined,
+} from "@material-ui/icons";
 
 const Info = styled.div`
   opacity: 0;
@@ -70,13 +75,13 @@ const Product = ({ item }) => {
       <Image src={item.img} />
       <Info>
         <Icon>
-          <ShoppingCartIcon />
+          <ShoppingCartOutlined />
         </Icon>
         <Icon>
-          <SearchIcon />
+          <SearchOutlined />
         </Icon>
         <Icon>
-          <FavoriteBorderIcon />
+          <FavoriteBorderOutlined />
         </Icon>
       </Info>
     </Container>
