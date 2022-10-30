@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar/Navbar";
 import RemoveIcon from "@mui/icons-material/Remove";
 import AddIcon from "@mui/icons-material/Add";
 import NewsLetter from "../components/NewsLetter/NewsLetter";
+import { Add, Remove } from "@material-ui/icons";
 
 const Container = styled.div``;
 
@@ -151,9 +152,9 @@ const Product = () => {
           </FilterContainer>
           <AddContainer>
             <AmountContainer>
-              <RemoveIcon />
+              <Remove />
               <Amount>1</Amount>
-              <AddIcon />
+              <Add />
             </AmountContainer>
             <Button>ADD TO CART</Button>
           </AddContainer>
