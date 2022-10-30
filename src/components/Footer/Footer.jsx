@@ -1,12 +1,5 @@
 import styled from "styled-components";
 import { mobile } from "../../responsive";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import MailIcon from "@mui/icons-material/Mail";
-import PhoneIcon from "@mui/icons-material/Phone";
-import PinterestIcon from "@mui/icons-material/Pinterest";
-import RoomIcon from "@mui/icons-material/Room";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import {
   Facebook,
   Instagram,
