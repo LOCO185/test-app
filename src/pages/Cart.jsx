@@ -2,8 +2,7 @@ import styled from "styled-components";
 import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import { mobile } from "../responsive";
-import AddIcon from "@mui/icons-material/Add";
-import RemoveIcon from "@mui/icons-material/Remove";
+import { Add, Remove } from "@material-ui/icons";
 
 const Container = styled.div``;
 
@@ -186,9 +185,9 @@ const Cart = () => {
               </ProductDetail>
               <PriceDetail>
                 <ProductAmountContainer>
-                  <AddIcon />
+                  <Add />
                   <ProductAmount>2</ProductAmount>
-                  <RemoveIcon />
+                  <Remove />
                 </ProductAmountContainer>
                 <ProductPrice>$ 30</ProductPrice>
               </PriceDetail>
