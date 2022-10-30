@@ -7,6 +7,15 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import PinterestIcon from "@mui/icons-material/Pinterest";
 import RoomIcon from "@mui/icons-material/Room";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import {
+  Facebook,
+  Instagram,
+  MailOutline,
+  Phone,
+  Pinterest,
+  Room,
+  Twitter,
+} from "@material-ui/icons";
 
 const Container = styled.div`
   display: flex;
@@ -87,28 +96,27 @@ const Footer = () => {
       <Left>
         <Logo>LOCO.</Logo>
         <Desc>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad similique
-          itaque repudiandae quas quaerat? Perspiciatis aspernatur alias numquam
-          ipsam cum. Quod facilis voluptas et harum excepturi maxime quisquam
-          saepe laboriosam!
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don’t look even slightly believable.
         </Desc>
         <SocialContainer>
-          <SocialIcon>
-            <FacebookIcon />
+          <SocialIcon color="3B5999">
+            <Facebook />
           </SocialIcon>
-          <SocialIcon>
-            <InstagramIcon />
+          <SocialIcon color="E4405F">
+            <Instagram />
           </SocialIcon>
-          <SocialIcon>
-            <TwitterIcon />
+          <SocialIcon color="55ACEE">
+            <Twitter />
           </SocialIcon>
-          <SocialIcon>
-            <PinterestIcon />
+          <SocialIcon color="E60023">
+            <Pinterest />
           </SocialIcon>
         </SocialContainer>
       </Left>
       <Center>
-        <Title>Useul Links</Title>
+        <Title>Useful Links</Title>
         <List>
           <ListItem>Home</ListItem>
           <ListItem>Cart</ListItem>
@@ -125,14 +133,14 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <RoomIcon style={{ marginRight: "10px" }} /> 622 Israel , South
+          <Room style={{ marginRight: "10px" }} /> 622 Dixie Path , South
           Tobinchester 98336
         </ContactItem>
         <ContactItem>
-          <PhoneIcon style={{ marginRight: "10px" }} /> +1 234 56 78
+          <Phone style={{ marginRight: "10px" }} /> +1 234 56 78
         </ContactItem>
         <ContactItem>
-          <MailIcon style={{ marginRight: "10px" }} /> contact@Jawad.loco
+          <MailOutline style={{ marginRight: "10px" }} /> contact@loco.dev
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>
