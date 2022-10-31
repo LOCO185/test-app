@@ -2,7 +2,7 @@ export const sliderItems = [
   {
     id: 1,
     img: "https://watermark.lovepik.com/photo/20211124/large/lovepik-fashion-womens-summer-shopping-image-picture_500961857.jpg",
-    title: "SUMMER SALE",
+    title: "SUMMER ",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "f5fafd",
   },
