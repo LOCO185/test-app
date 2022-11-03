@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 // import Product from "./pages/Product";
 // import ProductList from "./pages/ProductList";
 import Register from "./pages/Register";
-// import Login from "./pages/Login";
+import Login from "./pages/Login";
 // import Cart from "./pages/Cart";
 
 function App() {
@@ -14,6 +14,9 @@ function App() {
       </Route>
       <Route path="/register">
         <Register />
+      </Route>
+      <Route path="/login">
+        <Login />
       </Route>
     </Router>
   );
